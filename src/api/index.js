@@ -39,7 +39,7 @@ apiClient.interceptors.response.use(
 /* --- API Services (Mocks/Stubs) --- */
 
 export const fetchWeather = async (city = 'Pune') => {
-  const API_KEY = '76a9ea1e63640877014f462ebee7be79';
+  const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
   try {
     const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`);
     return {
@@ -134,7 +134,7 @@ export const analyzeCropImage = async (base64Image) => {
     const response = await axios.post('https://api.plant.id/v2/health_assessment', data, {
       headers: {
         'Content-Type': 'application/json',
-        'Api-Key': 'P2KShAdPwznBw6AopRtuERdyJI2ms31ozPX6yBxlDig5mGac8d'
+        'Api-Key': import.meta.env.VITE_PLANT_ID_API_KEY
       }
     });
     return response;
@@ -145,7 +145,7 @@ export const analyzeCropImage = async (base64Image) => {
 };
 
 export const fetchMarketPrices = async (cropType) => {
-  const DATA_GOV_API_KEY = '579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b';
+  const DATA_GOV_API_KEY = import.meta.env.VITE_DATA_GOV_API_KEY;
   
   // The Government Database uniquely spells Soybean differently.
   const cropMap = {
