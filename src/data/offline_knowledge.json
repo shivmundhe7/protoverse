@@ -1,0 +1,125 @@
+{
+  "last_updated": "2026-04-10",
+  "data": [
+    {
+      "commodity": "Wheat",
+      "state": "Maharashtra",
+      "market": "Pune",
+      "price": {
+        "min": 2100,
+        "max": 2300,
+        "modal": 2200
+      },
+      "trend": "up",
+      "previous_price": 2100
+    },
+    {
+      "commodity": "Rice",
+      "state": "Maharashtra",
+      "market": "Pune",
+      "price": {
+        "min": 1700,
+        "max": 1900,
+        "modal": 1800
+      },
+      "trend": "stable",
+      "previous_price": 1800
+    },
+    {
+      "commodity": "Maize",
+      "state": "Maharashtra",
+      "market": "Nagpur",
+      "price": {
+        "min": 1600,
+        "max": 1800,
+        "modal": 1700
+      },
+      "trend": "down",
+      "previous_price": 1750
+    },
+    {
+      "commodity": "Cotton",
+      "state": "Maharashtra",
+      "market": "Akola",
+      "price": {
+        "min": 6000,
+        "max": 6400,
+        "modal": 6200
+      },
+      "trend": "up",
+      "previous_price": 5900
+    },
+    {
+      "commodity": "Soybean",
+      "state": "Maharashtra",
+      "market": "Latur",
+      "price": {
+        "min": 4300,
+        "max": 4700,
+        "modal": 4500
+      },
+      "trend": "stable",
+      "previous_price": 4500
+    },
+    {
+      "commodity": "Onion",
+      "state": "Maharashtra",
+      "market": "Nashik",
+      "price": {
+        "min": 900,
+        "max": 1200,
+        "modal": 1050
+      },
+      "trend": "down",
+      "previous_price": 1150
+    },
+    {
+      "commodity": "Potato",
+      "state": "Uttar Pradesh",
+      "market": "Kanpur",
+      "price": {
+        "min": 800,
+        "max": 1000,
+        "modal": 900
+      },
+      "trend": "stable",
+      "previous_price": 900
+    },
+    {
+      "commodity": "Tomato",
+      "state": "Karnataka",
+      "market": "Bangalore",
+      "price": {
+        "min": 1200,
+        "max": 1600,
+        "modal": 1400
+      },
+      "trend": "up",
+      "previous_price": 1300
+    },
+    {
+      "commodity": "Sugarcane",
+      "state": "Uttar Pradesh",
+      "market": "Lucknow",
+      "price": {
+        "min": 300,
+        "max": 350,
+        "modal": 320
+      },
+      "trend": "stable",
+      "previous_price": 320
+    },
+    {
+      "commodity": "Groundnut",
+      "state": "Gujarat",
+      "market": "Rajkot",
+      "price": {
+        "min": 5000,
+        "max": 5500,
+        "modal": 5200
+      },
+      "trend": "up",
+      "previous_price": 5000
+    }
+  ]
+}
